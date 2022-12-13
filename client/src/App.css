@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+.car{
+  padding: 5%;
+}
+.page{
+  background: url('./components/image2.png');
+  background-size: cover;
+  padding: 80px;
+
+}
+.main{
+  background: rgb(158, 142, 142);
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.Form-input{
+  padding-bottom: 15px ;
+}
+.form-btn{
+  border: none;
+  padding: 10px 12px;
+  text-align: center;
+  background-color: rgb(4, 0, 255);
+  color: aliceblue;
+  font-size: 15px;
+  border-radius: 10px;
+}
+input{
+  padding: 10px 12px;
+  border-radius: 10px;
+
+}
+
+/* --------------------------------- Bootstrap----------------------------------------------- */
+
+.con{
+  width: 50%;
+  margin: auto;
+}
