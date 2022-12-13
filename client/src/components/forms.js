@@ -14,7 +14,7 @@ const Header = () => {
         if(!name || !role || !email || !password){
             toast.warning("please fill Fields")
         }else{
-            axios.post("http://localhost:8899/add", {
+            axios.post("http://localhost:7800/sample/", {
                 name,role,email,password
             })
             .then((res) => console.log(res));
